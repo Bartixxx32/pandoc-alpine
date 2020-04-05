@@ -1,4 +1,4 @@
-FROM alpine AS pandoc-builder
+FROM alpine:edge AS pandoc-builder
 
 RUN apk --no-cache add \
          alpine-sdk \
